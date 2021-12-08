@@ -69,13 +69,13 @@ int main()
         STARTUPINFO startInfo = {0};
         PROCESS_INFORMATION processInfo = {0};
 
-        if(password=="aditya")
+        if(password=="shubham")
         {
             cout<<"\n<**************************************************************************************************>\n\n";
             greetings();
             do{
                 cout<<"\n<**********************************************************************************************>\n\n";
-                cout<<endl<<"How can i help you Master Aditya...."<<endl<<endl;
+                cout<<endl<<"How can i help you Shubham...."<<endl<<endl;
 
                 string phrase = "How can i help you shubham";
                 string command = "espeak \"" + phrase + "\"";
